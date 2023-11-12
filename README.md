@@ -1,2 +1,0 @@
-# AI_Empa
-Empasoft

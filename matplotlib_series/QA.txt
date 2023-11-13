@@ -1,0 +1,144 @@
+All questions are correct!
+
+Try again Return to text
+Q1:
+
+Choose the correct code from A-D to draw the graph given in the question.
+
+Correct answer
+
+
+A
+
+
+
+Q2:
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+df.plot.bar()
+
+
+Q3: What is the
+
+Choose the correct code from the options that should be executed if you want to save the graph given in the question as a PNG image.
+
+Correct answer
+
+
+fig.savefig('sample_graph.png')
+
+Q4: What is the
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+ax.pie(rate, labels=labels, startangle=90, counterclock=False, autopct='%1.0f%%%')
+
+
+Q5: What is the
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+ax.boxplot((x1, x2, x3), labels=labels)
+
+Commentary
+
+boxplotUse the method to draw a boxplot .
+boxplotIf you specify in the method argument vert=False, the boxplot will be drawn horizontally.
+Here, we are drawing a vertical boxplot, so vert=Falseno options are needed. By the way, there is no method
+to draw a graph .box
+
+Q6: What is the
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+
+ax.hist((age_list1, age_list2, age_list3), label=labels, stacked=True)
+
+
+Commentary
+
+To draw a stacked histogram, specify as histan argument to the function . If you specify , the histogram will be drawn horizontally, and if you specify , the histogram will be drawn using the accumulated values.stacked=True
+orientation='horizontal'cumulative='True'
+
+Q7: What is the
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+ax.scatter(science_score, math_score, marker='x')
+
+Commentary
+
+xTo use with a marker , you must specify it scatterin the function argument . Also, is a function that draws a scatter plot matrix, and since we are drawing a scatter plot this time, C, which uses a function, is the correct answer.marker='x'
+scatter_matrixscatter
+
+Q8: What is the
+
+Choose **all** the correct code from A-D to draw the graph given in the question.
+
+Correct answer
+
+C
+
+
+D
+
+Commentary
+
+When using list elements, it zipis necessary to iterate using a function to perform element-by-element operations between arrays.
+On the other hand, ndarraywhen you use , you can easily perform operations between elements, so you can write more concise code.
+
+Q9: What is the
+
+Choose the correct code from the options to draw the graph given in the question.
+
+Correct answer
+
+ax.barh(x, y, tick_label=labels)
+
+Commentary
+
+To draw a horizontal bar chart, barhuse the method.
+By the way, there is no property for barmethods .axis
+
+Q10: What is the
+
+Choose the correct code from A-D to draw the graph given in the question.
+
+Correct answer
+
+
+B
+Commentary
+
+You can draw multiple graphs within a single subplot by calling methods that draw graphs multiple times on a single Axes object.
+By the way, subplotsif you pass a numerical value to the argument, that many Figure objects (areas that form the outline of the graph) will be generated.
+In this case, plotB is the correct answer because all you need to do is generate one Figure object and one Axes object, and repeatedly call the method on the Axes object.
+
+Q11: What is the
+
+Choose the correct code from A-D to draw the graph given in the question.
+
+Correct answer
+
+
+D
+
+
+
+Commentary
+
+subplotsYou can draw multiple graphs by passing numerical values ​​to the arguments.
+The first argument specifies the number of graphs to display vertically, and the second argument specifies the number of graphs to display horizontally.
+If you want to arrange multiple graphs only vertically, you can omit the second argument.
+Also, axesby using , you can specify what kind of data should be used in which graph.

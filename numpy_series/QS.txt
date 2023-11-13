@@ -1,0 +1,190 @@
+Q1:
+Choose the correct description of the home directory from the options.
+
+import ​ ​numpy ​ ​as ​ ​np
+
+​ ​np.​ ​sum​ ​([[1, ​ ​2], ​ ​[2, ​ ​3], ​ ​[4, ​ ​5]], ​ ​1)
+
+Answer:array([3, 5, 9])
+
+Q2:
+Choose from the following options the correct value that would go into (A) of the code if you wanted to obtain the following output results.
+
+[Output result]
+
+array([[1], [2], [3]])
+[code]
+
+import ​ ​numpy ​ ​as ​ ​np
+
+​ ​np.​ ​array​ ​([1, ​ ​2, ​ ​3])[:, ​ ​(A)]
+
+Answer:np.newaxis
+
+Q3:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+np.sum([[1, 2], [2, 3], [4, 5]])
+
+Answer:17
+
+Q4:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([[[1, 2, 3]], [[2, 3, 4]], [[3,4,5]]])
+a[:, :,  2] = 1
+
+print(a)
+
+Answer:array([[[1, 2, 1]], [[2, 3, 1]], [[3, 4, 1]]])
+Q5:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([[1, 2, 3], [2, 3, 4], [3,4,5]])
+a[1:]
+
+Answer:array([[2, 3, 4], [3, 4, 5]])
+Q6:
+Select from the options below the most appropriate combination of words to be found in (A) and (B) of the following description.
+
+The function (A) can be used to split an array in the middle of a column and divide it into two arrays. The function (B) can be used to split an array in the middle of a row and divide it into two arrays.
+
+Answer:(A) hsplit, (B) vsplit
+Q7:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([1, 2, 3, 5, 8, 13])
+a[4]
+
+Answer:8
+
+Q8:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+a = np.array([[1, 2, 3], [2, 3, 4]])
+np.diff(a)
+
+Answer:array ([[1, 1], [1, 1]])
+
+Q9:
+Choose all the correct explanations for the following array array([[1], [2], [3]]) from the following options.
+
+Answer:
+
+It is a 3-row, 1-column array.
+
+It is a two-dimensional array.
+
+Q10:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+np.array([1, 2, 3], dtype="float")
+Answer:array([1., 2., 3.])
+
+Q11:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+np.arange(2, 5, 2)
+
+Answer:array([2, 4])
+
+Q12:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+a = np.array([[1, 2, 3, 4, 5, 6, 7, 8], [2, 3, 4, 5, 6, 7, 8, 9], [3, 4, 5, 6, 7, 8, 9, 10]])
+np.any(a > 10)
+Answer:False
+
+Q13:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([[1, 2, 3], [2, 3, 4]])
+b = a
+
+a[0][0] = 0
+b[0][0] = 1
+a[0][0]
+
+Answer:1
+
+Q14:
+Select all of the following options that best describe the function, abs function.
+Answer: The absolute value of the array can be determined.
+It is a type of universal function.
+
+Q15:
+Select from the options below the most appropriate combination of words to be found in (A) and (B) of the following description.
+
+(A) method returns the referent, whereas (B) method returns a copy.
+Answer:(A) ravel, (B) flatten
+
+Q16:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([["a", "b", "c"], ["g", "h", "i"]])
+b = np.array([["d", "e", "f"], ["j", "k", "l"]])
+
+np.concatenate([a, b], axis=1)
+
+Answer:
+array([['a', 'b', 'c', 'd', 'e', 'f'], ['g', 'h', 'i', 'j', 'k', 'l']], dtype='<U1')
+
+Q17:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([1, 2, 3])
+b = np.array([4, 5])
+
+np.concatenate([a, b])
+
+aAnswer:array([1, 2, 3, 4, 5])
+Q18:
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+a = np.array([1, 2, 3])
+b = np.array([[2, 3, 4], [4, 5, 6]])
+
+np.dot(a, b)
+Answer:  (Example of error without line break)
+
+Q19: 
+Choose the correct description of the home directory from the options.
+
+import numpy as np
+
+a = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+a.reshape(5, 2)
+
+Answer:array([[ 1, 2], [ 3, 4], [ 5, 6], [ 7, 8], [ 9, 10]])
+
+Q20:Choose the correct description of the home directory from the options.
+
+import numpy as np
+np.array([0.1, 1, 2, 3]).dtype
+
+Answer: dtype('float64')
+
+Q21:Select all appropriate explanations of the function, log function, from the following options.
+Answer:
+We can find the natural logarithm with Napier number as the base.
+
+This is one function of broadcast.

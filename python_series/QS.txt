@@ -1,25 +1,3 @@
-Question 1
-Please select the error output when you run the following program.
-
-10 / 0
-
-Answer:ZeroDivisionError
-
-Question 2
-Select the correct combination of data types corresponding to (A), (B), (C), and (D).
-
-print​ ​(type​ ​(42)) ​ ​# (A)​ ​print​ ​(type​ ​(​ ​"john")) ​ ​# (B)​ ​print​ ​(type​ ​(​ ​"42")) ​ ​# (C)​ ​print​ ​(type​ ​(4.2​ ​/​ ​3)) ​ ​# (D)
-
-Answer:(A) int (B) str (C) str (D) float
-Question 3
-
-Please choose from the options that apply to (A).
-
-Python has a package management tool called (A) for installing libraries by default.
-
-Answer:pip
-
-Question 4
-Please select the correct Python version check method.
-
-Answer:python --version
+version https://git-lfs.github.com/spec/v1
+oid sha256:7fa5dbb457ee2d632f45a19b53d45d91ec0abceaebe860069c714f8aa5c76ab6
+size 732

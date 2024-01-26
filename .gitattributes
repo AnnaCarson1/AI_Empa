@@ -1,0 +1,7 @@
+*.ipynb filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.md filter=lfs diff=lfs merge=lfs -text
+*.txt filter=lfs diff=lfs merge=lfs -text
+/team filter=lfs diff=lfs merge=lfs -text
+application_train.csv filter=lfs diff=lfs merge=lfs -text
